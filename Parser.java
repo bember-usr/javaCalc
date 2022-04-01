@@ -32,15 +32,6 @@ public class Parser {
 		return (_operation);
 	}
 
-	// public static boolean IsMixed(String _str) {
-	// if (rimNumString.indexOf(_str) == -1) {
-	// if (arabicNumString.indexOf(_str) == -1)
-	// ThrowClass.throwUncnownSymb();
-	// } else
-	// flagIsRim = true;
-	// return (flagIsRim);
-	// }
-
 	public static boolean IsMixed(String _str) {
 		for (int i = 0; i < _str.length(); i++) {
 			if (rimNumString.indexOf(_str.charAt(i)) != -1) {
